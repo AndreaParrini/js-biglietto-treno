@@ -15,13 +15,13 @@ if (userAge < 18 ){
 
     ticketDiscount = ticketPrice * 0.2;
     document.getElementById('discount_description').innerHTML= "Sconto (Under 18)";
-    document.getElementById('discount_price').innerHTML= `${ticketDiscount.toFixed(2)}€`;
+    document.getElementById('discount_price').innerHTML= `- ${ticketDiscount.toFixed(2)}€`;
 
 } else if (userAge >= 65) {
 
     ticketDiscount = ticketPrice * 0.4;
     document.getElementById('discount_description').innerHTML= "Sconto (Over 65)";
-    document.getElementById('discount_price').innerHTML= `${ticketDiscount.toFixed(2)}€`;
+    document.getElementById('discount_price').innerHTML= `- ${ticketDiscount.toFixed(2)}€`;
 
 }
 
