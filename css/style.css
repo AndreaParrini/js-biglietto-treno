@@ -1,3 +1,59 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(29, 28, 28);
+    color: whitesmoke;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-end{
+    text-align: end;
+}
+
+.w300{
+    width: 300px;
+}
+
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.my-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pt-1{
+    padding-top: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+    & h1{
+        text-transform: uppercase;
+    }
+
+    & p{
+        font-size: large;
+    }
+}
+
+.row{
+    display: flex;
+}
+
+.col-5{
+    width: calc( ( 100% / 12 ) * 5 );
+}
+
+.col-2{
+    width: calc( ( 100% / 12 ) * 2 );
+}
+
+.bt-2{
+    border-top: 2px solid white;
 }

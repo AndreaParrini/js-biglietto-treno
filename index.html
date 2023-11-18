@@ -8,6 +8,52 @@
 </head>
 <body>
     
+    <div class="container">
+        <h1 class="text-align-center">
+            Sito per determinare il prezzo del Biglietto
+        </h1>
+        <p class="text-align-center">
+            Per sapere il prezzo del biglietto inserire il totale dei chilometri da percorrere e l'età. E' previsto uo sconto del 20% per i viaggatori minorenni ed uno sconto del 40% per i viaggiatori OVER 65.
+        </p>
+        <div class="pt-1">
+            <h4 class="text-align-center">Riepilogo Dati Cliente</h4>
+            <div class="w300 mx-auto">
+                <div>
+                    Nome: <span id="username">-</span>
+                </div>
+                <div>
+                    Età: <span id="userage">-</span>
+                </div>
+                <div>
+                    Km da percorrere: <span id="userkm">-</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4 class="text-align-center">Riepilogo costo biglietto</h4>
+            <div id="ticket_price_box" class="w300 mx-auto my-1">
+                <div class="row">
+                    <div class="col-5">Prezzo Biglietto</div>
+                    <div class="col-2 text-align-end">-</div>
+                    <div class="col-5 text-align-end" id="ticket_price">0.00€</div>
+                </div>
+            </div>
+            <div id="discount_price_box" class="w300 mx-auto my-1">
+                <div class="row">
+                    <div class="col-5" id="discount_description">Sconto</div>
+                    <div class="col-2 text-align-end">-</div>
+                    <div class="col-5 text-align-end" id="discount_price">0.00€</div>
+                </div>
+            </div>
+            <div id="full_price_box" class="w300 mx-auto my-1 pt-1 bt-2">
+                <div class="row">
+                    <div class="col-5">Totale</div>
+                    <div class="col-2 text-align-end">-</div>
+                    <div class="col-5 text-align-end" id="full_price">0.00€</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
